@@ -324,6 +324,7 @@ margin-bottom: 20px;
     right: -15px;
     font-size: 14px ;
 }
+/* estas clases se agregaran dinaicamente mediante javascript*/
 
 .skills .skill .javascript{
     width: 0%;
