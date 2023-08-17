@@ -325,12 +325,46 @@ margin-bottom: 20px;
     font-size: 14px ;
 }
 /* estas clases se agregaran dinaicamente mediante javascript*/
-
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
 }
 @keyframes javascript{
+    0%{widht:0%;}
+    100%{width:75%}
+}
+
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss{
+    0%{widht:0%;}
+    100%{width:92%}
+}
+
+.skills .skill .react{
+    width: 0%;
+    animation: 2s react forwards;
+}
+@keyframes react{
+    0%{widht:0%;}
+    100%{width:89%}
+}
+
+.skills .skill .tailwind{
+    width: 0%;
+    animation: 2s tailwind forwards;
+}
+@keyframes tailwind{
+    0%{widht:0%;}
+    100%{width:80%}
+}
+.skills .skill .sequelize{
+    width: 0%;
+    animation: 2s sequelize forwards;
+}
+@keyframes tailwind{
     0%{widht:0%;}
     100%{width:75%}
 }
