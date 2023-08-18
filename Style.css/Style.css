@@ -324,7 +324,7 @@ margin-bottom: 20px;
     right: -15px;
     font-size: 14px ;
 }
-/* estas clases se agregaran dinaicamente mediante javascript*/
+/* estas clases se agregaran dinamicamente mediante javascript*/
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
@@ -364,8 +364,51 @@ margin-bottom: 20px;
     width: 0%;
     animation: 2s sequelize forwards;
 }
-@keyframes tailwind{
+@keyframes sequelize{
+    0%{widht:0%;}
+    100%{width:75%}
+}
+.skills .skill .express{
+    width: 0%;
+    animation: 2s express forwards;
+}
+@keyframes express{
+    0%{widht:0%;}
+    100%{width:87%}
+}
+
+.skills .skill .nodejs{
+    width: 0%;
+    animation: 2s nodejs forwards;
+}
+@keyframes nodejs{
+    0%{widht:0%;}
+    100%{width:83%}
+}
+
+.skills .skill .postgressql{
+    width: 0%;
+    animation: 2s postgressql forwards;
+}
+@keyframes postgressql{
     0%{widht:0%;}
     100%{width:75%}
 }
 
+
+.skills .skill .postgressql{
+    width: 0%;
+    animation: 2s postgressql forwards;
+}
+@keyframes postgressql{
+    0%{widht:0%;}
+    100%{width:75%}
+}
+.skills .skill .trabajo{
+    width: 0%;
+    animation: 2s trabajo forwards;
+}
+@keyframes trabajo{
+    0%{widht:0%;}
+    100%{width:85%}
+}
