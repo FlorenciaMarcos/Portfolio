@@ -412,3 +412,11 @@ margin-bottom: 20px;
     0%{widht:0%;}
     100%{width:85%}
 }
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad{
+    0%{widht:0%;}
+    100%{width:90%}
+}
