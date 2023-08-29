@@ -386,15 +386,6 @@ margin-bottom: 20px;
     100%{width:83%}
 }
 
-.skills .skill .postgressql{
-    width: 0%;
-    animation: 2s postgressql forwards;
-}
-@keyframes postgressql{
-    0%{widht:0%;}
-    100%{width:75%}
-}
-
 
 .skills .skill .postgressql{
     width: 0%;
@@ -412,3 +403,72 @@ margin-bottom: 20px;
     0%{widht:0%;}
     100%{width:85%}
 }
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad{
+    0%{widht:0%;}
+    100%{width:90%}
+}
+
+.skills .skill .problemas{
+    width: 0%;
+    animation: 2s problemas forwards;
+}
+@keyframes problemas{
+    0%{widht:0%;}
+    100%{width:89%}
+}
+
+
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion{
+    0%{widht:0%;}
+    100%{width:80%}
+}
+
+
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion{
+    0%{widht:0%;}
+    100%{width:75%}
+}
+
+
+.skills .skill .analisis{
+    width: 0%;
+    animation: 2s analisis forwards;
+}
+@keyframes analisis{
+    0%{widht:0%;}
+    100%{width:87%}
+}
+
+.skills .skill .estrategia{
+    width: 0%;
+    animation: 2s  estrategia forwards;
+}
+@keyframes estrategia{
+    0%{widht:0%;}
+    100%{width:73%}
+}
+
+.skills .skill .proyectos{
+    width: 0%;
+    animation: 2s proyectos forwards;
+}
+@keyframes proyectos{
+    0%{widht:0%;}
+    100%{width:75%}
+}
+
+
+
+
