@@ -395,6 +395,14 @@ margin-bottom: 20px;
     0%{widht:0%;}
     100%{width:75%}
 }
+.skills .skill .pyhton{
+    width: 0%;
+    animation: 2s pyhton forwards;
+}
+@keyframes pyhton {
+    0%{widht:0%;}
+    100%{width:53%}
+}
 .skills .skill .trabajo{
     width: 0%;
     animation: 2s trabajo forwards;
