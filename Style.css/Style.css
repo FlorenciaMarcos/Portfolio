@@ -442,7 +442,7 @@ margin-bottom: 20px;
 
 .skills .skill .dedicacion{
     width: 0%;
-    animation: 2s dedicacion forwards;
+    animation: 2s gitdedicacion forwards;
 }
 @keyframes dedicacion{
     0%{widht:0%;}
@@ -477,6 +477,36 @@ margin-bottom: 20px;
     100%{width:75%}
 }
 
+/*SECCION CURRICULUM*/
 
 
 
+
+
+.curriculum{
+    background-color:#1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.curriculum .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.curriculum h2{
+    font-size: 48px;
+    font-family:'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.curriculum .fila{
+    display:flex;
+}
+
+.curriculum .fila .col{
+    width: 49%;
+    padding: 0 20px;
+}
