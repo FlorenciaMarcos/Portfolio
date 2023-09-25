@@ -665,8 +665,7 @@ position: relative;
 }
 
 /*SECCION CONTACTO*/
-.contacto {
-    background-image: url(../Asset/googleMaps.png);
+.contacto{
     background-color: #1e2326;
     color: #fff;
     padding: 50px 0;
@@ -693,7 +692,7 @@ position: relative;
     padding: 10px;
     position: relative;
 }
-.col input, .contacto .col textarea{
+.contacto .col input, .contacto .col textarea{
     display: block;
     width: 100%;
     padding: 18px;
@@ -704,7 +703,7 @@ position: relative;
     font-size: 18px;
 }
 
-.contacto button{
+    .contacto button{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -716,9 +715,9 @@ position: relative;
     color: #fff;
     position: relative;
     z-index: 10;
-}
+    }
 
-.contacto button .overlay{
+   .contacto button .overlay{
     position: absolute;
     top:0;
     left: 0;
@@ -731,12 +730,18 @@ position: relative;
     .contacto button:hover .overlay{
         width: 100%;
     }
+    
+    .contacto .col img{
+        width: 100%;
+        
+        
+    }
     .contacto .col .info{
         position: absolute;
         top:40%;
         background-color: #252a2e;
         padding: 20px;
-        max-width: 350px;
+        max-width:350%;
         left: 50%;
         transform: translate(-50%,-50%);
     }
