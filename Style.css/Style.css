@@ -714,6 +714,13 @@ html {
 
 /*SECCION CONTACTO*/
 .contacto {
+  background: linear-gradient(
+      to top,
+      rgba(30, 35, 38, 0.8),
+      rgba(30, 35, 38, 1)
+    ),
+    url(../Asset/713530-black-metal-backgrounds-2560x1572-for-htc.jpg);
+
   background-color: #1e2326;
   color: #fff;
   padding: 50px 0;
@@ -843,4 +850,55 @@ footer .arriba {
   border-radius: 50%;
   line-height: 50px;
   font-size: 18px;
+}
+/*SECCION RESPONSIVE*/
+@media screen and (max-width: 980px) {
+  nav {
+    display: none;
+  }
+  .nav-responsive {
+    display: block;
+  }
+  nav.responsive {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    background-color: #252a2e;
+    width: 180px;
+  }
+  nav.responsive ul {
+    display: block !important;
+  }
+  nav.responsive ul li {
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sobremi .fila {
+    display: block;
+  }
+  .sobremi .fila .col {
+    width: fit-content;
+  }
+  .skill .fila {
+    display: block;
+  }
+  .skill .fila .col {
+    width: 100%;
+  }
+  .skill .fila .col .barra-skill {
+    width: 100%;
+  }
+  .curriculum .fila {
+    display: block;
+  }
+  .curriculum .fila .col {
+    width: 90%;
+  }
+  .curriculum .fila .derecha {
+    margin-left: 20px;
+  }
 }
