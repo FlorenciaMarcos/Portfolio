@@ -223,7 +223,8 @@ html {
   cursor: pointer;
   background-color: transparent;
   border: 2px solid #fff;
-  width: fit-content;
+
+  width: fit-content; /* Estándar */
   display: block;
   margin: 20px auto;
   padding: 10px 22px;
