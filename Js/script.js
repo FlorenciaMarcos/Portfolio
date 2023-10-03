@@ -32,13 +32,14 @@ function efectoHabilidades() {
     habilidades[6].classList.add("nodejs");
     habilidades[7].classList.add("postgressql");
     habilidades[8].classList.add("pyhton");
-    habilidades[8].classList.add("trabajo");
-    habilidades[8].classList.add("creatividad");
-    habilidades[8].classList.add("comunicacion");
-    habilidades[8].classList.add("dedicacion");
-    habilidades[8].classList.add("analisis");
-    habilidades[8].classList.add("estrategia");
-    habilidades[8].classList.add("proyectos");
+    habilidades[9].classList.add("trabajo");
+    habilidades[10].classList.add("creatividad");
+    habilidades[11].classList.add("problemas");
+    habilidades[12].classList.add("comunicacion");
+    habilidades[13].classList.add("dedicacion");
+    habilidades[14].classList.add("analisis");
+    habilidades[15].classList.add("estrategia");
+    habilidades[16].classList.add("proyectos");
   }
 }
 
