@@ -415,11 +415,11 @@ href="#inicio" onclick="seleccionar()">INICIO</a></li>
     <div class="fila">
       <!--Formulario-->
       <div class="col">
-          <input type="text" placeholder="Nombre">
-          <input type="text" placeholder="Número Telefónico">
-          <input type="text" placeholder="Email">
-          <input type="text" placeholder="Asunto">
-          <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+          <input type="text"  placeholder="Nombre" id="nombre" name="nombre" autocomplete="username">
+          <input type="text" placeholder="Número Telefónico" id="numero" name="numero" autocomplete="tel">
+          <input type="text" placeholder="Email" id="email" name="email" autocomplete="email"> 
+          <input type="text" placeholder="Asunto" id="asunto" name="asunto" autocomplete="additional-name">
+          <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
           <button>
             Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
             <span class="overlay"></span>
